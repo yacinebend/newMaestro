@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- primary meta tags -->
+    <title>Document</title>
+    <meta name="title" content="Grilli - Amazing & Delicious Food"></meta>
+    <meta name="description" content="This is a Restaurant html template made by codewithsadee"></meta>
+    <!-- facico -->
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/svg+xml">
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+
+<!-- custom css link -->
+<link rel="stylesheet" href="./assets/css/style.css">
+
+<!-- preload images -->
+<link rel="stylesheet"as="image" href="./assets/images/hero-slider-1.jpg">
+<link rel="stylesheet"as="image" href="./assets/images/hero-slider-2.jpg">
+<link rel="stylesheet"as="image" href="./assets/images/hero-slider-3.jpg">
+</head>
+<body id="top">
+<div class="preload " data-preaload>
+    <div class="circle"></div>
+    <div class="text">Maestro <br>pizzaiolo</div>
+</div>
+
+<!-- 
+    Top 
+    
+    Bar 
+-->
+<div class="topbar">
+    <div class="container">
+        <address class="topbar-item">
+            <div class="icon">
+                <ion-icon name="location-outline" aria-hidden="true" style="color: black;"></ion-icon>
+            </div>
+            <span class="span" style="color: black;">
+                82A High St, London, N8 7NU
+            </span>
+        </address>
+        <div class="separator"></div>
+        <div class="topbar-item item-2">
+            <div class="icon">
+                <ion-icon name="time-outline" aria-hidden="true" style="color: black;"></ion-icon>
+            </div>
+            <span class="span" style="color: black;">
+                Mon-Sun : 17:00:PM - 23:00PM
+            </span>
+        </div>
+        <a href="tel:02083488903" class="topbar-item">
+            <div class="icon">
+                <ion-icon name="call-outline" aria-hidden="true" style="color: black;"></ion-icon>
+            </div>
+            <span class="span" style="color: black;">020 8348 8903</span>
+        </a>
+        <div class="separator"></div>
+        <a href="mailto:maestropizzaiolouk@gmail.com" class="topbar-item">
+            <div class="icon">
+                <ion-icon name="mail-outline" aria-hidden="true" style="color: black;"></ion-icon>
+            </div>
+            <span class="span" style="color: black;">maestropizzaiolouk@gmail.com</span>
+        </a>
+    </div>
+</div>
+
+
+
+
+<!--
+     #HEADER
+ -->
+ <header class="header" data-header>
+    <div class="container">
+        <a href="#" class="logo">
+            <img src="./assets/images/logo.png"  width="70" height="12" alt="Maesto pizzaiolo">
+        </a>
+        <nav class="navbar" data-navbar>
+            <button class="close-btn" aria-label="close menu" data-nav-toggler>
+                <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+            <a href="#" class="logo">
+                <img src="./assets/images/logo.png"  width="70" height="12" alt="Maesto pizzaiolo">
+            </a>
+            <div class="separator1"></div>
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <a href="#home" class="navbar-link hover-underline">
+                      <div class="separator"></div>
+                      <span class="span" style="color: #995722;">Home</span>
+
+                    </a>
+                </li>
+
+                <li class="navbar-item">
+                    <a href="#menu" class="navbar-link hover-underline">
+                      <div class="separator"></div>
+                      <span class="span" style="color: #995722;">Menus</span>
+
+                    </a>
+                </li>
+
+                <li class="navbar-item">
+                  <a href="#services" class="navbar-link hover-underline">
+                    <div class="separator"></div>
+                    <span class="span" style="color: #995722;">Services</span>
+
+                  </a>
+              </li>
+
+                <li class="navbar-item">
+                    <a href="#about" class="navbar-link hover-underline">
+                      <div class="separator"></div>
+                      <span class="span" style="color: #995722;">About Us</span>
+
+                    </a>
+                </li>
+                
+
+                <li class="navbar-item">
+                    <a href="#contact" class="navbar-link hover-underline">
+                      <div class="separator"></div>
+                      <span class="span" style="color: #995722;">Contact</span>
+
+                    </a>
+                </li>
+
+            </ul>
+            <div class="text-center">
+                <P class="headline-1 navbar-title">
+                    Visit Us
+                </P>
+                <address class="body-4">
+                    82A High St, London, <br>N8 7NU
+                </address>
+                <p class="body-4 navbar-text">
+                    Mon-Sun : 17:00:PM - 23:00PM
+                </p>
+                <a href="mailto:maestropizzaiolouk@gmail.com" class="body-4 sidebar-link">maestropizzaiolouk@gmail.com</a>
+                <div class="separator"></div>
+                <p class="contact-label">
+                   Booking Resquerst 
+                </p>
+
+                <a href="tel:02083488903" class="body-1 contact-number hover-underline">020-8348-8903</a>
+            </div>
+
+
+
+
+        </nav>
+        <!-- <a href="#" class="btn btn-secondary">
+            <span class="text text-1">
+                Find A Table
+            </span>
+            <span class="text text-2" aria-hidden="true">
+                Find A Table
+            </span>
+        </a> -->
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+            <span class="line line-1" style="background-color: #c52222"></span>
+            <span class="line line-2" style="background-color: #c52222"></span>
+            <span class="line line-3" style="background-color: #c52222"></span>
+
+        </button>
+        <div class="overlay" data-nav-toggler data-overlay></div>
+
+
+    </div>
+ </header>
+<main>
+    <article>
+        <!-- 
+            #Hero 
+        -->
+        <!-- <section class="hero text-center" aria-label="home" id="home">
+            <ul class="hero-slider" data-hero-slider>
+             
+
+                <li class="slider-item active" data-hero-slider-item>
+                    <div class="slider-bg">
+                        <img src="./assets/images/pizzabackground.png"
+                        width="1880" height="950" alt="" class="img-cover">
+                    </div>
+                    <p class="label-2 section-subtitle slider-reveal" style="color: rgb(248, 73, 73);">
+                        - Welcome to -<br> Maestro Pizzaiolo 
+                     </p>
+                     <h1 class="display-1 hero-title slider-reveal">
+                      Best ITALIAN Pizzza
+                       In London
+                     </h1>
+                     <p class="body-2 hero-text slider-reveal"  style="color: rgb(248, 73, 73);">
+                        
+                     </p>
+                     <a href="https://alleatapp.com/menu-maestro-pizzaiolo-n8" class="btn btn-primary slider-reveal">
+                        <span class="text text-1"  style="color: rgb(250, 91, 86);">View Our Menu</span>
+                        <span class="text text-2" aria-hidden="true">View Our Menu</span>
+                     </a>
+                </li>
+
+
+            </ul>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn><ion-icon name="chevron-back"></ion-icon></button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+                <ion-icon name="chevron-forward"></ion-icon>
+            </button> 
+
+            
+      
+
+
+        </section> -->
+
+        
+        <!--           
+            About
+        -->
+      
+        <hr>
+        <section class="section about text-center" aria-labelledby="about-label" id="home" style="background-color: white">
+            <div class="container" style="margin-top: 100px;">
+                <div class="about-content">
+                    <p class="label-2 section-subtitle" id="about-label" style="color: #0d4469;">
+                        -Welcome To-
+                    </p>
+                    <h2 class="headline-1 section-title" style="color: black;">Maestro Pizzaiolo</h2>
+
+                    <p class="section-text" style="color: black;">
+                        Welcome to Maestro Pizzaiolo where we bring authentic taste of Italy to your plate. Located in the heart of London N8 7NU, we are dedicated to providing our customers with highest quality of food and service.
+                    </p>
+                    <div class="contact-label" style="color: black;">Use All Eat App to Get</div>
+                    <a href="tel:+804001234567" class="body-1 contact-number hover-underline" style="color: #ff0000;">10% OFF</a>
+                    <a href="https://alleatapp.com/menu-maestro-pizzaiolo-n8" class="btn btn-primary">
+                        <span class="text text-1" style="color: rgb(73, 4, 4);">Delivery</span>
+          
+                        <span class="text text-2" aria-hidden="true">Delivery</span>
+                    </a>
+
+                </div>
+                
+
+                <figure class="about-banner" >
+
+                    <img src="./assets/images/pizzafirst11.jpg" width="570" height="570" loading="lazy" alt="about banner"
+                      class="w-100" data-parallax-item data-parallax-speed="1">
+        
+                    <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+                      <img src="./assets/images/pizzasecond22.jpeg" width="285" height="285" loading="lazy" alt=""
+                        class="w-100" style="border-radius: 10px; border: 0.1px groove #dde4e3;">
+                    </div>
+        
+                    <div class="abs-img abs-img-2 has-before">
+                      <img src="./assets/images/pizzahh-removebg-preview.png" width="133" height="134" loading="lazy" alt="" style="border-radius: 0 20% 20% 20%;">
+                    </div>
+        
+                  </figure>
+
+            </div>
+        </section>
+
+          <!-- 
+        MENU
+     -->
+     <section class="section menu" aria-label="menu-label" id="menu" style="background-color: rgb(0, 0, 0);">
+      <div class="container">
+
+        <p class="section-subtitle text-center label-2" style="color: rgb(201, 107, 107);">Chose Your Favorite</p>
+
+        <h2 class="headline-1 section-title text-center" style="color: #ffe5e5;">- Menu -</h2>
+
+        <ul class="grid-list">
+
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/pizzaA.png" width="100" height="100" loading="lazy" alt="Greek Salad"
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="https://alleatapp.com/menu-maestro-pizzaiolo-n8" class="card-title">Pizza Margarita</a>
+                  </h3>
+
+                  <span class="span title-2">$25.50</span>
+                </div>
+
+                <p class="card-text label-1">
+                  lorem ipsum lorem
+                  
+                  <a href="https://alleatapp.com/menu-maestro-pizzaiolo-n8" style="text-decoration: none;"><button class="btn22" >Order</button></a>
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/pizzaB.png" width="100" height="100" loading="lazy" alt="Lasagne"
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="https://alleatapp.com/menu-maestro-pizzaiolo-n8" class="card-title">Pizza Kafta</a>
+                  </h3>
+
+                  <span class="span title-2">$40.00</span>
+                </div>
+
+                <p class="card-text label-1">
+                  lorem ipsum lorem
+                  <a href="https://alleatapp.com/menu-maestro-pizzaiolo-n8" style="text-decoration: none;"><button class="btn22" >Order</button></a>
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/pizzaC.png" width="100" height="100" loading="lazy" alt="Butternut Pumpkin"
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="https://alleatapp.com/menu-maestro-pizzaiolo-n8" class="card-title">Pizza Oil</a>
+                  </h3>
+
+                  <span class="span title-2">$10.00</span>
+                </div>
+                <p class="card-text label-1">    
+                  lorem ipsum lorem
+                  <a href="https://alleatapp.com/menu-maestro-pizzaiolo-n8" style="text-decoration: none;"><button class="btn22" >Order</button></a>               
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/pizzaD.png" width="100" height="100" loading="lazy" alt="Tokusen Wagyu"
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="https://alleatapp.com/menu-maestro-pizzaiolo-n8" class="card-title">Pizza Champ</a>
+                  </h3>
+                  <span class="span title-2">$39.00</span>
+                </div>
+
+                <p class="card-text label-1">
+                  lorem ipsum lorem
+                  <a href="https://alleatapp.com/menu-maestro-pizzaiolo-n8" style="text-decoration: none;"><button class="btn22" >Order</button></a>
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/pizzaE.png" width="100" height="100" loading="lazy" alt="Olivas Rellenas"
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="https://alleatapp.com/menu-maestro-pizzaiolo-n8" class="card-title">Pizza light</a>
+                  </h3>
+
+                  <span class="span title-2">$25.00</span>
+                </div>
+
+                <p class="card-text label-1">
+                  lorem ipsum lorem
+                  <a href="https://alleatapp.com/menu-maestro-pizzaiolo-n8" style="text-decoration: none;"><button class="btn22" >Order</button></a>
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+
+              <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                <img src="./assets/images/pizzaF.png" width="100" height="100" loading="lazy" alt="Opu Fish"
+                  class="img-cover">
+              </figure>
+
+              <div>
+
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <a href="https://alleatapp.com/menu-maestro-pizzaiolo-n8" class="card-title">Pizza fish</a>
+                  </h3>
+
+                  <span class="span title-2">$49.00</span>
+                </div>
+
+                <p class="card-text label-1">
+                  lorem ipsum lorem
+                  <a href="https://alleatapp.com/menu-maestro-pizzaiolo-n8" style="text-decoration: none;"><button class="btn22" >Order</button></a>
+                </p>
+
+              </div>
+
+            </div>
+          </li>
+
+        </ul>
+
+        <p class="menu-text text-center">
+          Mon-Sun from <span class="span">17:00 pm</span> to <span class="span">23:00 pm</span>
+        </p>
+
+        <a href="https://alleatapp.com/menu-maestro-pizzaiolo-n8" class="btn btn-primary">
+          <span class="text text-1" style="color: white;">View All Menu</span>
+
+          <span class="text text-2" aria-hidden="false">View All Menu</span>
+        </a>
+
+       
+
+      </div>
+    </section>
+
+
+          <!-- 
+        - #About Us
+      -->
+      <hr>
+
+      <section class="special-dish text-center" aria-labelledby="dish-label" id="about">
+
+        <div class="special-dish-banner" style="padding: 5%; background-image: url('assets/images/fakefooter.jpg');
+        background-repeat: repeat;
+        
+        background-size: 100% 100%;">
+          <img src="./assets/images/lot.jpeg" width="940" height="900" loading="lazy" alt="special dish"
+            class="img-cover">
+        </div>
+
+        <div class="special-dish-content bg-black-10" style="background-color: #aa8f8f" >
+          <div class="container">
+<!-- 
+            <img src="./assets/images/pizzastu-removebg-preview.png" width="28" height="41" loading="lazy" alt="badge" class="abs-img">
+
+            <p class="section-subtitle label-2" style="color: #0d4469;">Our Story</p> -->
+
+            <h2 class="headline-1 section-title" style="color: black;">-About Us-</h2>
+
+            <p class="section-text" style="color: black;">
+                Welcome to Maestro Pizzaiolo where we bring authentic taste of Italy to your plate. Located in the heart of London N8 7NU, we are dedicated to providing our customers with highest quality of food and service. At Maestro Pizzaiolo, our team of chefs are passionate about crafting the finest handmade pizzas using only the freshest, locally sourced ingredients. Enjoy a variety of other Italian dishes, including homemade pastas, salads, and desserts prepared right before your eyes.
+            </p>
+
+            <div class="wrapper">
+              <del class="del body-3"  style="color: black;"></del>
+
+              <span class="span body-1"  style="color: black;"></span>
+            </div>
+
+            <a href="#" class="btn btn-primary">
+              <span class="text text-1"  style="color: rgb(73, 4, 4);">Order Online</span>
+
+              <span class="text text-2" aria-hidden="true">Order Online</span>
+            </a>
+
+          </div>
+        </div>
+
+        <img src="./assets/images/shape-4.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1">
+
+        
+
+      </section>
+      <hr>
+
+                       <!-- 
+            #SERVICE
+        -->
+        <section class="section service bg-black-10 text-center" aria-label="service" id="services">
+          <div class="container">
+              <p class="section-subtitle label-2" style="color: rgb(173, 96, 61);">
+                  Pizzaiolo-Services
+              </p>
+              <h2 class="headline-1 section-title" style="color: #802626;">We Offer Best Services</h2>
+              <br>
+              <br>
+              <p class="section-text" style="color: black;">
+                 
+                </p>
+                <ul class="grid-list">
+
+                  <li>
+                    <div class="service-card">
+      
+                      <a href="#" class="has-before hover:shine">
+                        <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                          <img src="./assets/images/service1fake.jpeg" width="285" height="336" loading="lazy" alt="Breakfast"
+                            class="img-cover">
+                        </figure>
+                      </a>
+      
+                      <div class="card-content">
+      
+                        <h3 class="title-4 card-title">
+                          <a href="https://alleatapp.com/menu-maestro-pizzaiolo-n8" style="color: black;">DELIVERY AND PICKUP</a>
+                        </h3>
+      
+                        <a href="https://alleatapp.com/menu-maestro-pizzaiolo-n8" class="btn-text hover-underline label-2">View Menu</a>
+      
+                      </div>
+      
+                    </div>
+                  </li>
+      
+                  <li>
+                    <div class="service-card">
+      
+                      <a href="https://alleatapp.com/menu-maestro-pizzaiolo-n8" class="has-before hover:shine">
+                        <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                          <img src="./assets/images/service2fake.jpeg" width="285" height="336" loading="lazy" alt="Appetizers"
+                            class="img-cover">
+                        </figure>
+                      </a>
+      
+                      <div class="card-content">
+      
+                        <h3 class="title-4 card-title">
+                          <a href="https://alleatapp.com/menu-maestro-pizzaiolo-n8" style="color: black;">ORDER YOUR FOOD</a>
+                        </h3>
+      
+                        <a href="https://alleatapp.com/menu-maestro-pizzaiolo-n8" class="btn-text hover-underline label-2">View Menu</a>
+      
+                      </div>
+      
+                    </div>
+                  </li>
+      
+                  <li>
+                    <div class="service-card">
+      
+                      <a href="#" class="has-before hover:shine">
+                        <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                          <img src="./assets/images/service3fake.jpg" width="285" height="336" loading="lazy" alt="Drinks"
+                            class="img-cover">
+                        </figure>
+                      </a>
+      
+                      <div class="card-content">
+      
+                        <h3 class="title-4 card-title">
+                          <a href="https://alleatapp.com/menu-maestro-pizzaiolo-n8" style="color: black;">
+                              TAKE A PIC AND SHARE WITH US
+                              </a>
+                        </h3>
+      
+                        <a href="https://alleatapp.com/menu-maestro-pizzaiolo-n8" class="btn-text hover-underline label-2">View Menu</a>
+      
+                      </div>
+      
+                    </div>
+                  </li>
+      
+                </ul>
+                <img src="./assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="shape"
+          class="shape shape-1 move-anim">
+        <img src="./assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="shape"
+          class="shape shape-2 move-anim">
+          </div>
+
+      </section>
+
+     
+
+         <!-- 
+        - #Contact
+      -->
+      <section class="special-dish text-center" aria-labelledby="dish-label" id="contact">
+        <div class="special-dish-content bg-black-10" style="background-color: #967a7a" >
+          <div class="container" style="text-align: center;">
+
+            <!-- <img src="./assets/images/hola.webp" width="28" height="41" loading="lazy" alt="badge" class="abs-img"> -->
+
+            
+
+            <h2 class="headline-1 section-title" style="color: black; text-align: center;">-Contact Us-</h2>
+            <br>
+                        
+
+              <p class="section-text" style="color: black;">
+                <a href="https://www.google.com/maps?ll=51.587656,-0.117271&z=14&t=m&hl=en&gl=GB&mapclient=embed&cid=8430015035764855047"class="body-1 contact-number hover-underline" style="font-size: large; color: rgb(63, 11, 11);"><i class='bx bxs-map ' style='color:black'  ></i>82A High St, London, N8 7NU</a>
+             
+              <br>
+              <a href="tel:02083488903"class="body-1 contact-number hover-underline" style="font-size: large;color: rgb(63, 11, 11);"><i class='bx bxs-phone-call bx-tada' style='color:black' ></i>  020 8348 8903 </a>
+              
+              <br>
+              <a href="mailto:maestropizzaiolouk@gmail.com"class="body-1 contact-number hover-underline" style="font-size: large;color: rgb(63, 11, 11);"><i class='bx bxl-gmail  bx-flip-horizontal' style='color:black' ></i>  maestropizzaiolouk@gmail.com </a>
+              </p>
+
+            <div class="wrapper">
+              <del class="del body-3"  style="color: black;"></del>
+
+              <span class="span body-1"  style="color: black;"></span>
+            </div>
+            
+
+            
+            
+          </div>
+          
+        </div>
+        <div class="special-dish-banner" style="padding: 5%; background-color: rgb(43, 19, 19);
+        background-repeat: repeat;
+        
+        ">
+        <iframe class="iframe-contact" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2478.94039024267!2d-0.11984552352497947!3d51.587655871831586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761be81bc158cf%3A0x57127249eb9cb9f!2s82a%20High%20St%2C%20London%20N8%207NU%2C%20Royaume-Uni!5e0!3m2!1sfr!2sma!4v1694063140026!5m2!1sfr!2sma" height="700" width="100%"  style="border:0; border-radius: 30px;" loading="lazy"  class="img-cover" style="position: absolute; top: 50%; transform: translate(0, -50%);" ></iframe>
+          <!-- <img src="./assets/images/lot.jpg" width="940" height="900" loading="lazy" alt="special dish"
+            class="img-cover"> -->
+        </div>
+
+        
+
+        <!-- <img src="./assets/images/shape-9.png" width="351" height="462" loading="lazy" alt="" class="shape shape-2"> -->
+
+      </section>
+      
+
+     
+
+      <!-- 
+        Footer
+       -->
+       <footer class="footer section has-bg-image text-center" style="background-image: url('./assets/images/image77.jpg'); background-repeat: no-repeat;">
+        <div class="container">
+
+          <div class="footer-top grid-list">
+            <div class="footer-brand has-before has-after">
+
+              <a href="#" class="logo">
+                <img src="./assets/images/logo.png" width="100" height="50" loading="lazy" alt="Maestro pizzaelo">
+              </a>
+              <address class="body-4">
+                82A High St, London, N8 7NU
+              </address>
+
+              <a href="mailto:maestropizzaiolouk@gmail.com" class="body-4 contact-link">
+                maestropizzaiolouk@gmail.com
+              </a>
+
+              <a href="tel:02081037001" class="body-4 contact-link">
+                Booking Request : 020-8103-7001
+              </a>
+
+              <p class="body-4">
+                Mon-Sun : 17:00PM - 23:00PM
+              </p>
+              <div class="wrapper">
+                <div class="separator"></div>
+                <div class="separator"></div>
+                <div class="separator"></div>
+              </div>
+
+              <p class="title-1">
+                Get Offers & News
+              </p>
+
+              <p class="label-1">
+                Use All Eat App to Get <span class="span">10% OFF</span>
+              </p>
+
+            </div>
+
+            <ul class="footer-list">
+              
+              <li>
+                <a href="#home" class="label-2 footer-link hover-underline">Home</a>
+              </li>
+
+              <li>
+                <a href="#menu" class="label-2 footer-link hover-underline">Menu</a>
+              </li>
+
+              <li>
+                <a href="#contact" class="label-2 footer-link hover-underline">Contact</a>
+              </li>
+
+              <li>
+                <a href="#about" class="label-2 footer-link hover-underline">About Us</a>
+              </li>
+
+              <li>
+                <a href="#services" class="label-2 footer-link hover-underline">Services</a>
+              </li>
+            </ul>
+
+            <ul class="footer-list">
+              
+              <li>
+                <a href="#" class="label-2 footer-link hover-underline">Facebook</a>
+              </li>
+
+              <li>
+                <a href="#" class="label-2 footer-link hover-underline">Instagram</a>
+              </li>
+
+              <li>
+                <a href="#" class="label-2 footer-link hover-underline">Twitter</a>
+              </li>
+
+              <li>
+                <a href="#" class="label-2 footer-link hover-underline">Youtube</a>
+              </li>
+
+              <li>
+                <a href="#" class="label-2 footer-link hover-underline">Google Map</a>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div class="footer-bottom">
+
+            <p class="copyright">
+              &copy; 2023 Maestreo. All Rights Reserved 
+            </p>
+
+
+          </div>
+
+
+
+        </div>
+       </footer>
+
+       <!-- 
+        
+        back to top
+      
+      -->
+
+      <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+
+        <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+      </a>
+
+
+
+
+
+
+        
+
+    </article>
+</main>
+
+
+
+    
+    <!-- custom js link -->
+
+    <script src="./assets/js/script.js"></script>
+    <!-- ionicon link -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
+</body>
+</html>
